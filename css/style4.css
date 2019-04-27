@@ -1,0 +1,960 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration:none;
+}
+body {
+	width:100%;
+	height: 730vh;
+	background-image: url(../images/kaa.jpg);
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+img {
+	width: 180px;
+	height: 150px;
+	transform: translate(-3%,-7%);
+}
+.nav-area {
+	clear:both;
+	margin: 20px 0;
+}
+nav {
+	width: 100%;
+	height: 80px;
+	font-family: verdana;
+	z-index: 99;
+	margin: 0;
+}
+nav ul {
+	float:right;
+	transform: translate(-10%,-26%);
+}
+nav ul li {
+	display:inline-block;
+	list-style-type:none;
+	line-height: 67px;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+nav ul li a{
+	text-decoration:none;
+	color: white;
+	padding-top: 40px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+nav ul li:hover {
+	background-color:orangered;
+	height: 70px;
+	display: inline-block;
+	color:white;
+}
+.active {
+	background-color: orangered;
+	height: 70px;
+	line-height: 67px;
+	font-size: 18px;
+	padding-top: 40px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0;
+}
+::-webkit-scrollbar{
+	width:15px;
+	background: black;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: #f39d1a;
+}
+.back {
+	background: rgba(0,0,0,0.6);
+	height: 750vh;
+	width: 83vw;
+	margin-bottom:80px;
+	transform:translate(10%,1%);
+	border-top: 7px orangered solid;
+	border-bottom: 7px orangered solid;
+}
+.la {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,17%);
+}
+.la img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.la img:hover {
+	transform: scale(1.3);
+}
+
+.le {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,17%);
+}
+.le img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.le img:hover {
+	transform: scale(1.3);
+}
+
+.li {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,17%);
+}
+.li img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.li img:hover {
+	transform: scale(1.3);
+}
+.lo {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,17%);
+}
+.lo img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.lo img:hover {
+	transform: scale(1.3);
+}
+.lu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,125%);
+}
+.lu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.lu img:hover {
+	transform: scale(1.3);
+}
+
+.ma {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,125%);
+}
+.ma img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ma img:hover {
+	transform: scale(1.3);
+}
+
+.me {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,125%);
+}
+.me img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.me img:hover {
+	transform: scale(1.3);
+}
+.mi {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,125%);
+}
+.mi img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.mi img:hover {
+	transform: scale(1.3);
+}
+.mo {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,233%);
+}
+.mo img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.mo img:hover {
+	transform: scale(1.3);
+}
+
+.mu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,233%);
+}
+.mu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.mu img:hover {
+	transform: scale(1.3);
+}
+
+.na {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,233%);
+}
+.na img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.na img:hover {
+	transform: scale(1.3);
+}
+.ne {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,233%);
+}
+.ne img{
+	height:110%;
+	width: 120%;
+	transition: 0.5s ease-in-out;
+}
+.ne img:hover {
+	transform: scale(1.3);
+}
+.ni {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,342%);
+}
+.ni img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ni img:hover {
+	transform: scale(1.3);
+}
+
+.no {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,342%);
+}
+.no img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.no img:hover {
+	transform: scale(1.3);
+}
+
+.nu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,342%);
+}
+.nu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.nu img:hover {
+	transform: scale(1.3);
+}
+.pa {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,342%);
+}
+.pa img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.pa img:hover {
+	transform: scale(1.3);
+}
+.pe {
+	height: 280px;
+	width:508px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(9.5%,547%);
+}
+.pe img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.pe img:hover {
+	transform: scale(1.3);
+}
+.pi {
+	height: 280px;
+	width:504px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(115%,547%);
+}
+.pi img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.pi img:hover {
+	transform: scale(1.3);
+}
+.po {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,570%);
+}
+.po img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.po img:hover {
+	transform: scale(1.3);
+}
+
+.pu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,570%);
+}
+.pu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.pu img:hover {
+	transform: scale(1.3);
+}
+
+.ra {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,570%);
+}
+.ra img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ra img:hover {
+	transform: scale(1.3);
+}
+.re {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,570%);
+}
+.re img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.re img:hover {
+	transform: scale(1.3);
+}
+.ri {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,678%);
+}
+.ri img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ri img:hover {
+	transform: scale(1.3);
+}
+
+.ro {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,678%);
+}
+.ro img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ro img:hover {
+	transform: scale(1.3);
+}
+
+.ru {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,678%);
+}
+.ru img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ru img:hover {
+	transform: scale(1.3);
+}
+.sa {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,678%);
+}
+.sa img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.sa img:hover {
+	transform: scale(1.3);
+}
+.se {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,786%);
+}
+.se img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.se img:hover {
+	transform: scale(1.3);
+}
+
+.si {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,786%);
+}
+.si img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.si img:hover {
+	transform: scale(1.3);
+}
+
+.so {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,786%);
+}
+.so img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.so img:hover {
+	transform: scale(1.3);
+}
+.su {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,786%);
+}
+.su img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.su img:hover {
+	transform: scale(1.3);
+}
+.ta {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,894%);
+}
+.ta img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ta img:hover {
+	transform: scale(1.3);
+}
+
+.te {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,894%);
+}
+.te img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.te img:hover {
+	transform: scale(1.3);
+}
+
+.ti {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,894%);
+}
+.ti img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ti img:hover {
+	transform: scale(1.3);
+}
+.to {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,894%);
+}
+.to img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.to img:hover {
+	transform: scale(1.3);
+}
+.tu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,1002%);
+}
+.tu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.tu img:hover {
+	transform: scale(1.3);
+}
+
+.va {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,1002%);
+}
+.va img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.va img:hover {
+	transform: scale(1.3);
+}
+
+.ve {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,1002%);
+}
+.ve img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.ve img:hover {
+	transform: scale(1.3);
+}
+.vi {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,1002%);
+}
+.vi img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.vi img:hover {
+	transform: scale(1.3);
+}
+.vo {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,1110%);
+}
+.vo img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.vo img:hover {
+	transform: scale(1.3);
+}
+
+.vu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,1110%);
+}
+.vu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.vu img:hover {
+	transform: scale(1.3);
+}
+
+.wa {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,1110%);
+}
+.wa img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.wa img:hover {
+	transform: scale(1.3);
+}
+.we {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,1110%);
+}
+.we img{
+	height:110%;
+	width: 140%;
+	transition: 0.5s ease-in-out;
+}
+.we img:hover {
+	transform: scale(1.3);
+}
+.wi {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,1220%);
+}
+.wi img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.wi img:hover {
+	transform: scale(1.3);
+}
+
+.wo {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,1220%);
+}
+.wo img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.wo img:hover {
+	transform: scale(1.3);
+}
+
+.wu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,1220%);
+}
+.wu img{
+	height:110%;
+	width: 120%;
+	transition: 0.5s ease-in-out;
+}
+.wu img:hover {
+	transform: scale(1.3);
+}
+.ya {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,1220%);
+}
+.ya img{
+	height:110%;
+	width: 135%;
+	transition: 0.5s ease-in-out;
+}
+.ya img:hover {
+	transform: scale(1.3);
+}
+.ye {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(20%,1328%);
+}
+.ye img{
+	height:110%;
+	width: 140%;
+	transition: 0.5s ease-in-out;
+}
+.ye img:hover {
+	transform: scale(1.3);
+}
+
+.yi {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(132%,1328%);
+}
+.yi img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.yi img:hover {
+	transform: scale(1.3);
+}
+
+.yo {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(242%,1328%);
+}
+.yo img{
+	height:110%;
+	width: 117%;
+	transition: 0.5s ease-in-out;
+}
+.yo img:hover {
+	transform: scale(1.3);
+}
+.yu {
+	height: 340px;
+	width:238px;
+	position: absolute;
+	overflow: hidden;
+	border-left: 2px orangered solid;
+	border-right: 2px orangered solid;
+	transform:translate(351%,1328%);
+}
+.yu img{
+	height:110%;
+	width: 105%;
+	transition: 0.5s ease-in-out;
+}
+.yu img:hover {
+	transform: scale(1.3);
+}
